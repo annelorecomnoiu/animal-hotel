@@ -1,0 +1,45 @@
+.newService {
+    flex: 4;
+    margin-left: 20px;
+    justify-content: space-between;
+  }
+  
+  .addServiceForm {
+    margin-top: 30px;
+  }
+  
+  .addServiceItem {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  
+  .addServiceItem > label {
+    color: gray;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  .addServiceItem > input {
+    padding: 10px;
+  }
+  
+  .addServiceItem > select {
+    padding: 10px;
+  }
+  
+  .addServiceButton {
+    margin-top: 10px;
+    padding: 7px 10px;
+    border: none;
+    width:170px;
+    height:40px;
+    border-radius: 10px;
+    background-color: chocolate;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0px 0px 55px -10px rgba(0, 0, 0, 2);
+  }

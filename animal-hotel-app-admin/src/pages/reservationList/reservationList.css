@@ -1,0 +1,45 @@
+.reservationList{
+    flex: 4;
+}
+
+.reservationList .reservationAddButton {
+    width: 150px;
+    border: none;
+    padding: 5px;
+    background-color: chocolate;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 5px;
+  }
+
+.reservationListItem{
+    display: flex;
+    align-items: center;
+}
+
+.reservationListImg {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+  }
+
+.reservationListEdit{
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    background-color: chocolate;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0px 0px 55px -10px rgba(0, 0, 0, 2);
+    margin-right: 20px;
+}
+
+.reservationListDelete{
+    color: red;
+    cursor: pointer;
+    box-shadow: 0px 0px 55px -10px rgba(0, 0, 0, 2);
+}

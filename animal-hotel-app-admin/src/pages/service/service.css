@@ -1,0 +1,94 @@
+.service {
+    flex: 4;
+    padding: 20px;
+  }
+  
+  .serviceTitleContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .serviceAddButton {
+    width: 80px;
+    border: none;
+    padding: 5px;
+    background-color: chocolate;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .serviceBottom {
+    padding: 20px;
+    margin: 20px;
+    width: 1240px;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 55px -10px rgba(0, 0, 0, 0.75);
+  }
+  
+  .serviceForm {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .serviceFormLeft {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .serviceFormLeft > label {
+    margin-bottom: 10px;
+    color: black;
+    font-size: 18px;
+  }
+  
+  .serviceFormLeft > input {
+    margin-bottom: 10px;
+    width: 850px;
+    border: none;
+    padding: 5px;
+    border-bottom: 1px solid gray;
+  }
+  
+  .serviceUploadImg{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-right: 20px;
+  }
+  
+  .serviceFormRight{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  
+  .serviceUpload{
+    display: flex;
+    align-items: center;
+  }
+
+  .serviceUploadingImg{
+    width: 300px;
+    height: 300px;
+  }
+  
+  .serviceButton{
+    border: none;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: chocolate;
+    color:white;
+    font-weight: 700;
+    cursor: pointer;
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+  }.service {
+    flex: 4;
+    padding: 20px;
+  }
+  
